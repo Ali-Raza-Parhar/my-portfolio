@@ -1,0 +1,48 @@
+.stackWrapper {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 50px
+}
+.stackTitle {
+    text-align: center;
+}
+.stackTitle h2 {
+    font-size: 28px;
+}
+.stackHrLine {
+    background-color: #fff;
+    border: none;
+    height: 2px;
+    border-radius: 5px;
+    margin: 20px 80px;
+}
+.stackTitle p{
+    font-size: 22px;
+    padding: 0px 100px 20px;
+}
+.stackImages {
+    background-color: rgb(56, 56, 56);
+    border-radius: 5px;
+    margin: 5px 196px;
+    padding: 20px 80px;
+}
+.stackImagesBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.stackImgColumn {
+    padding: 5px;
+    margin: 0px 10px;
+}
+.stackImg {
+    height: 80px;
+    width: 80px;
+    margin: 20px 20px;
+    border-radius: 5px;
+}
+.stackImgCaption {
+    text-align: center;
+}

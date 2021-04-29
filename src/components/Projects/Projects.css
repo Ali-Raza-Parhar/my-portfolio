@@ -1,0 +1,68 @@
+.projectWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 80px;
+}
+.projectHeading {
+    align-items: center;
+}
+.projectHeading h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+}
+.projectHeading p {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.projectHeading p a {
+    text-decoration: none;
+    color: #569CD6;
+}
+.projectHrLine {
+    background-color: #fff;
+    border: none;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+.projectDetail {
+    padding: 10px 40px;
+    color: #fff;
+    background-color: rgb(56, 56, 56);
+    border-radius: 5px;
+    margin: 10px 120px;
+}
+.projectDetail h3 {
+    display: block;
+    text-align: center;
+    padding: 14px 0px;
+    font-size: 20px;
+}
+.projectDetail p {
+    font-size: 18px;
+}
+.projectTechnologies {
+    display: flex;
+    justify-content: space-between;
+}
+.projectTechnologies div ul {
+    list-style-type: none;
+}
+.projectTechnologies div ul li {
+    display: inline-block;
+    padding: 2px 5px;
+    margin: 0px 2px 10px;
+    border-radius: 3px;
+    background-color: rgb(34, 34, 34);
+}
+.projectTechnologies div nav span {
+    margin: 0px 5px;
+}
+.projectTechnologies div nav span a{
+    text-decoration: none;
+    color: #569CD6;
+}
