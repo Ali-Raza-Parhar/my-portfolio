@@ -5,6 +5,10 @@ import ReactIcon from '../../assets/img/react.png';
 import Html5Icon from '../../assets/img/html5.png';
 import Css3Icon from '../../assets/img/css3.png';
 import HerokuIcon from '../../assets/img/heroku.png';
+import CentOSIcon from '../../assets/img/centos.jpg';
+import GitIcon from '../../assets/img/git.png';
+import AmazonS3Icon from '../../assets/img/amazonS3.png';
+import ES6Icon from '../../assets/img/es6.jpg';
 
 export default function Stack(){
   return(
@@ -23,7 +27,7 @@ export default function Stack(){
             </div>
             <div className="stackImgColumn">
               <img className="stackImg" src={ReactIcon} alt="reacticon" />
-              <p className="stackImgCaption">Rect</p>
+              <p className="stackImgCaption">React</p>
             </div>
             <div className="stackImgColumn">
               <img className="stackImg" src={Html5Icon} alt="html5icon" />
@@ -34,42 +38,20 @@ export default function Stack(){
               <p className="stackImgCaption">CSS3</p>
             </div>
             <div className="stackImgColumn">
-              <img className="stackImg" src={HerokuIcon} alt="herokuicon" />
-              <p className="stackImgCaption">Heroku</p>
+              <img className="stackImg" src={GitIcon} alt="giticon" />
+              <p className="stackImgCaption">Git</p>
             </div>
             <div className="stackImgColumn">
-              <img className="stackImg" src={JsIcon} alt="jsicon" />
-              <p className="stackImgCaption">JavaScript</p>
+              <img className="stackImg" src={AmazonS3Icon} alt="amazonS3icon" />
+              <p className="stackImgCaption">AmazonS3</p>
             </div>
             <div className="stackImgColumn">
-              <img className="stackImg" src={ReactIcon} alt="reacticon" />
-              <p className="stackImgCaption">JavaScript</p>
+              <img className="stackImg" src={ES6Icon} alt="ES6icon" />
+              <p className="stackImgCaption">ES6</p>
             </div>
             <div className="stackImgColumn">
-              <img className="stackImg" src={Html5Icon} alt="html5icon" />
-              <p className="stackImgCaption">JavaScript</p>
-            </div>
-            <div className="stackImgColumn">
-              <img className="stackImg" src={Css3Icon} alt="cssicon" />
-              <p className="stackImgCaption">JavaScript</p>
-            </div>
-            <div className="stackImgColumn">
-              <img className="stackImg" src={HerokuIcon} alt="herokuicon" />
-            </div>
-            <div className="stackImgColumn">
-              <img className="stackImg" src={JsIcon} alt="jsicon" />
-            </div>
-            <div className="stackImgColumn">
-              <img className="stackImg" src={ReactIcon} alt="reacticon" />
-            </div>
-            <div className="stackImgColumn">
-              <img className="stackImg" src={Html5Icon} alt="html5icon" />
-            </div>
-            <div className="stackImgColumn">
-              <img className="stackImg" src={Css3Icon} alt="cssicon" />
-            </div>
-            <div className="stackImgColumn">
-              <img className="stackImg" src={HerokuIcon} alt="herokuicon" />
+              <img className="stackImg" src={CentOSIcon} alt="centOSicon" />
+              <p className="stackImgCaption">CentOS</p>
             </div>
           </div>
         </div>
