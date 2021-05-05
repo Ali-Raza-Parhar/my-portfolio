@@ -46,3 +46,32 @@
     font-size: 28px;
     color: #569CD6;
 }
+  @media only screen and (max-width: 1024px) {
+    .heroSectionWrapper {
+        padding: 30px 40px;
+    }
+    .heroIntro {
+        padding: 0px 40px;
+        font-size: 24px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .heroSectionWrapper {
+        padding: 20px 40px;
+    }
+    .heroIntro {
+        padding: 0px;
+        font-size: 22px;
+    }
+
+  }
+  @media only screen and (max-width: 480px) {
+    .heroSectionWrapper {
+        padding: 20px 20px;
+    }
+    .heroIntro {
+        padding: 0px;
+        font-size: 20px;
+    }
+
+  }

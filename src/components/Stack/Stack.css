@@ -24,7 +24,7 @@
 .stackImages {
     background-color: rgb(56, 56, 56);
     border-radius: 5px;
-    margin: 5px 196px;
+    margin: 5px 176px;
     padding: 20px 80px;
 }
 .stackImagesBox {
@@ -45,4 +45,69 @@
 }
 .stackImgCaption {
     text-align: center;
+}
+  @media only screen and (max-width: 1024px) {
+    .stackWrapper {
+        margin-top: 40px;
+    }
+    .stackHrLine {
+        margin: 20px 80px;
+    }
+    .stackImages {
+        margin: 5px 120px;
+        padding: 20px 80px;
+    }
+    .stackImgColumn {
+        margin: 5px;
+    }
+    .stackImg {
+        margin: 5px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .stackWrapper {
+        margin-top: 20px;
+    }
+    .stackHrLine {
+        margin: 20px 40px;
+    }
+    .stackImages {
+        margin: 5px 40px;
+        padding: 20px 80px;
+    }
+    .stackImgColumn {
+        margin: 5px;
+    }
+    .stackImg {
+        margin: 5px;
+    }
+  }
+  @media only screen and (max-width: 620px) {
+      .stackImages {
+          padding: 5px 40px;
+          margin: 5px 40px;
+      }
+      .stackTitle p {
+        font-size: 20px;
+        padding: 0px 60px 20px;
+    }
+  }
+  @media only screen and (max-width: 490px) {
+    .stackImages {
+        padding: 5px 40px;
+        margin: 5px 20px;
+    }
+    .stackHrLine {
+        margin: 20px;
+    }
+    .stackTitle p {
+        font-size: 18px;
+        padding: 0px 20px 20px;
+    }
+    .stackImg {
+      height: 60px;
+      width: 60px;
+      margin: 5px;
+      border-radius: 5px;
+  }
 }

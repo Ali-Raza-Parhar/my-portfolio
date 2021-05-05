@@ -15,7 +15,6 @@
     color: #fff;
     text-align: center;
     font-size: 22px;
-    margin-bottom: 40px;
 }
 .projectHeading p a {
     text-decoration: none;
@@ -34,7 +33,7 @@
     color: #fff;
     background-color: rgb(56, 56, 56);
     border-radius: 5px;
-    margin: 10px 120px;
+    margin: 10px 100px;
 }
 .projectDetail h3 {
     display: block;
@@ -44,6 +43,7 @@
 }
 .projectDetail p {
     font-size: 18px;
+    text-align: justify;
 }
 .projectTechnologies {
     display: flex;
@@ -66,3 +66,36 @@
     text-decoration: none;
     color: #569CD6;
 }
+  @media only screen and (max-width: 1024px) {
+    .projectWrapper {
+        padding: 0px 80px;
+    }
+    .projectDetail {
+        padding: 10px 20px;
+        font-size: 20px;
+        margin: 10px 40px;
+
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .projectWrapper {
+        padding: 0px 40px;
+    }
+    .projectDetail {
+        padding: 10px 20px;
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    .projectDetail h3 {
+        padding: 5px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .projectWrapper {
+        padding: 0px 20px;
+    }
+    .projectDetail {
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+  }
