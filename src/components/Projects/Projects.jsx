@@ -13,10 +13,10 @@ export default function Projects(){
         <div className="projectHeading">
           <h2>Projects</h2>
           <hr className="projectHrLine"/>
-          <p>Some of my featured projects, see more on my <a href="#">Github</a>.</p>
+          <p>Some of my featured projects, see more on my <a href="https://github.com/Ali-Raza-Parhar">Github</a>.</p>
           <Project title="Burger Builder" description={burgerBuilderDesc} technologies={['ReactJs', 'Bootstrap', 'Jsx', 'ES6']} githubLink="https://github.com/Ali-Raza-Parhar/Burger-builder-project" liveLink="https://ali-raza-parhar.github.io/Burger-builder-project/"/>
           <Project title="To Do App" description={toDoDesc} technologies={['ReactJs', 'ES6', 'Material UI', 'Jsx']} githubLink="https://github.com/Ali-Raza-Parhar/To-Do-App" liveLink="https://ali-raza-parhar.github.io/To-Do-App/"/>
-          <Project title="Social Councelar Dashboard" description={socialCouncelarDesc} technologies={['ReactJs', 'Material UI', 'Jsx', 'ES6']} githubLink="https://github.com/Ali-Raza-Parhar/sc-Dashboard" liveLink="https://ali-raza-parhar.github.io/app/dashboard"/>
+          <Project title="Social Councelar Dashboard" description={socialCouncelarDesc} technologies={['ReactJs', 'Material UI', 'Jsx', 'ES6']} githubLink="https://github.com/Ali-Raza-Parhar/sc-Dashboard" liveLink="https://ali-raza-parhar.github.io/sc-Dashboard"/>
           <Project title="Pig Game" description={pigGameDesc} technologies={['JavaScript', 'HTML5', 'CSS3', 'Bootstrap']} githubLink="https://github.com/Ali-Raza-Parhar/Pig-Game" liveLink="https://ali-raza-parhar.github.io/Pig-Game/"/>
         </div>
       </div>
